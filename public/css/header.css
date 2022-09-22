@@ -1,0 +1,166 @@
+header {
+    width: 100%;
+    background-color:#000000;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    position: fixed;
+}
+
+header .contain-init {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 75%;
+}
+
+header .contain-init #contain-logo {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+header .contain-init #contain-logo img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header .contain-profile a {
+    display: none;
+}
+
+
+header .contain-profile {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header .contain-profile .list-init i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+header .contain-profile .image-profile {
+    width: 30%;
+    display: flex;
+}
+
+header .contain-profile .image-profile img {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    header {
+        height: 4rem;
+    }
+
+    header .contain-init #contain-logo {
+        width: 20%;
+        padding: 0 2rem;
+    }
+
+    header .contain-profile {
+        width: 20%;
+    }
+
+    header .contain-profile .image-profile {
+        width: 40px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+
+    header {
+        width: 100%;
+        height: 5.5rem;
+    }
+
+    header .contain-init {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+
+    header .contain-init #contain-logo {
+        width: 40%;
+    }
+
+    header .contain-profile {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 3rem;
+    }
+
+    header .contain-profile .list-init {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+
+    }
+
+    header .contain-profile .list-init a {
+        display: flex;
+        font-size: 1.2rem;
+        font-family: var(--base-font);
+    }
+    
+    header .contain-profile .list-init a:hover {
+        color: var(--green);
+        cursor: pointer;
+    }
+    
+    header .contain-profile .list-init i{
+        display: none;
+    }
+    
+    header .contain-profile .image-profile {
+        width: 8%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    header {
+        width: 100%;
+        height: 4.5rem;
+    }
+
+    header .contain-init {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    header .contain-init #contain-logo {
+        width: 18%;
+    }
+
+    header .contain-profile {
+        width: 60%;
+        display: flex;
+        margin-right: 3rem;
+    }
+
+    header .contain-profile .list-init {
+        width: 60%;
+    }
+
+    header .contain-profile .image-profile {
+        width: 6%;
+    }
+}

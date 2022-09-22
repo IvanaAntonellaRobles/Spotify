@@ -1,0 +1,21 @@
+@import url('./normalize.css');
+@import url('../css/header.css');
+@import url('../css/home.css');
+@import url('../css/footer.css');
+@import url('../css/help.css');
+
+:root {
+    --base-font:'Roboto Condensed', sans-serif;
+    --white: #f3f1f1;
+    --green: #17ae4e;
+    --blue : rgb(41, 65, 171);
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    }
+
+i {
+    color: var(--white);
+}

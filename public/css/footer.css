@@ -1,0 +1,123 @@
+footer {
+    height: 100%;
+    padding: 15px;
+    background-color: #000000;
+    color: var(--white);
+    font-family: var(--base-font);
+}
+
+footer .contain-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+footer .contain-footer .contain-logo {
+    width: 40%;
+    padding: 10px;
+}
+
+footer .contain-footer .contain-logo img {
+    width: 100%;
+}
+
+footer .contain-footer .contain-options {
+    justify-content: space-between;
+}
+
+footer .contain-footer .contain-options:hover {
+    cursor: pointer;
+}
+
+
+footer .contain-footer .contain-options .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 1rem;
+}
+
+footer .contain-footer .contain-icons {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+footer .contain-footer .contain-icons i {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+
+    footer {
+        margin-top: 5rem;
+        height: auto;
+    }
+
+    footer .contain-footer .contain-logo {
+        width: 15%;
+    }
+
+    footer .contain-footer .contain-options {
+        display: flex;
+    }
+
+    footer .contain-footer .contain-options .options  {
+        display: flex;
+        justify-content: start; 
+        margin-right: 5rem;
+    }
+
+
+    footer .contain-footer .contain-icons i {
+        font-size: 1rem;
+        padding: 19px 21px;
+        border-radius: 99999px;
+        border: 2px var(--white) solid; 
+        margin: 2rem 20px;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    
+    footer .contain-footer {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        justify-content: space-between;
+
+    }
+
+    footer .contain-footer .contain-logo {
+        width: 15%;
+        margin-left: 5rem;
+        margin-top: 15px;
+    }
+
+    footer .contain-footer .contain-logo img {
+        width: 60%;
+    }
+
+    footer .contain-footer .contain-icons {
+        width: auto;
+        height: 10%;
+    }
+
+    footer .contain-footer .contain-options {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+
+    footer .contain-footer .contain-icons i {
+        font-size: 1rem;
+        border-radius: 99999px;
+        border: 1px var(--white) solid;
+        margin: 2rem 20px;
+        padding: 10px 12px;
+    }
+}

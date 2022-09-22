@@ -1,0 +1,374 @@
+.home .contain-recommended {
+    background-image: url("https://www-growth.scdn.co/static/home/bursts-mobile.svg");
+    width: 100%;
+    height: 60rem;
+    padding-top: 3rem;
+    background-size: auto;
+    background-position: 33rem 1rem;
+    background-color: var(--blue);
+}
+
+.home .contain-recommended .description-recommended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-top: 3rem;
+}
+
+.home .contain-recommended .description-recommended .title-recommended {
+    font-size: 2.5rem;
+    font-family: var(--base-font);
+    color: var(--green); 
+    margin-bottom: -2rem;
+}
+
+.home .contain-recommended .description-recommended .information-recommended {
+    padding: 5px;
+    color: var(--green);
+    font-weight: bold;
+    font-family: var(--base-font);
+    text-align: center;
+}
+
+.home .contain-recommended .description-recommended .contain-button button {
+    background-color: var(--green);
+    border: none;
+    font-family: var(--base-font);
+    padding: 10px 3rem;
+    border-radius: 9999px;
+    color: var(--blue);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home .contain-recommended .description-recommended .contain-button button:hover {
+    background-color: rgb(99, 212, 99);
+}
+
+.home .contain-recommended2 {
+    height: 15rem;
+    margin-top: 6rem;
+    text-align: center;
+
+}
+
+.home .contain-recommended2 .contain-title {
+    font-size: 2.5rem;
+    font-family: var(--base-font);
+    color: var(--green);
+    font-weight: bold;
+    margin-bottom: 1rem;
+    width: 70%;
+    margin-left: 55px;
+}
+
+.home .contain-recommended2 .contain-cards {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.home .contain-recommended2 .contain-cards .card {
+    background-color: #000000;
+    height: 15rem;
+    width: 100%;
+    border-radius: 15px;
+    margin: 15px 5px;
+    border: 1px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 30px 15px rgba(0,0,0,0.86);
+}
+
+.home .contain-recommended2 .contain-cards .card span {
+    color: white;
+    position: relative;
+    bottom: 9.3rem;
+    font-family: var(--base-font);
+    font-size: 1rem;
+}
+
+.home .contain-recommended2 .contain-cards .card button{
+    position: relative;
+    padding: 5px 10px;
+    background-color: var(--green);
+    border: none;
+    border-radius: 9999px;
+    color: #000000;
+    font-family: var(--base-font);
+    font-weight: bold;
+    font-size: 0.8rem;
+
+}
+
+.home .contain-recommended2 .contain-cards .card i {
+    position: relative;
+    color: var(--green);
+    bottom: 70px;
+    left: 40px;
+}
+
+.home .contain-recommended2 .contain-cards #card3 {
+    display: none;
+}
+
+.home .contain-recommended2 .contain-cards .card img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+
+@media (min-width: 768px) {
+
+    .home .contain-recommended {
+        background-size: cover;
+        background-position: 1% 2rem;
+    }
+
+    .home .contain-recommended .description-recommended .title-recommended {
+        font-size: 4rem;
+        margin-top: -30px;
+    }
+
+    .home .contain-recommended .description-recommended .information-recommended {
+        width: 40%;
+        margin-top: -40px;
+    }
+
+    .home .contain-recommended .description-recommended .contain-button button {
+        padding: 16px 4rem;
+    }
+
+    .home .contain-recommended2 .contain-title {
+        font-size: 3rem;
+        width: 90%;
+    }
+    
+    .home .contain-recommended2 .contain-cards {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .home .contain-recommended2 .contain-cards .card {
+        height: 25rem;
+        width: 19rem;
+        margin: 15px 5px;
+        margin-top: 30px;
+    }
+
+    .home .contain-recommended2 .contain-cards .card span {
+        bottom: 18rem;
+    }
+
+    .home .contain-recommended2 .contain-cards .card img {
+        height: 15rem;
+        width: 80%;
+        margin-top: 50px;
+    }
+
+    .home .contain-recommended2 .contain-cards .card i {
+        bottom: 70px;
+        left: 6rem;
+        font-size: 1.5rem;
+    }
+
+    .home .contain-recommended2 .contain-cards .card button{
+        padding: 5px 60px;
+        font-size: 0.8rem;
+        top: 28px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    
+    .home .contain-recommended {
+        height: 100vw;
+    }
+
+    .home .contain-recommended .description-recommended .title-recommended {
+        font-size: 5rem;
+    }
+    
+    .home .contain-recommended .description-recommended .information-recommended {
+        font-size: 1.5rem;
+        width: 60%;
+        margin-top: -60px;
+    }
+
+    .home .contain-recommended .description-recommended .contain-button button {
+        padding: 20px 6rem;
+        font-size: 1.2rem;
+    }
+
+    .home .contain-recommended2 .contain-title {
+        font-size: 5.5rem;
+        width: 90%;
+    }
+    
+    .home .contain-recommended2 .contain-cards {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    .home .contain-recommended2 .contain-cards .card {     
+        height: 25rem;
+        width: 50%;
+        margin: 10px 15px;
+    }
+
+    .home .contain-recommended2 .contain-cards .card i {
+        bottom: 80px;
+        left: 6rem;
+        font-size: 1.8rem;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 {
+        display: flex;
+        margin: 10px 15px;
+        background-color: #000000;
+        height: 25rem;
+        width: 50%;
+        box-shadow: 0px 2px 30px 15px rgba(0,0,0,0.86);
+        border: 1px white solid;
+        border-radius: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 img {
+        height: 15rem;
+        width: 80%;
+        margin-top: 70px;
+        border-radius: 15px;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 span {
+        color: white;
+        position: relative;
+        bottom: 18rem;
+        font-family: var(--base-font);
+        font-size: 1rem;
+    }
+
+
+    .home .contain-recommended2 .contain-cards #card3 button {
+        background-color: var(--green);
+        position: relative;
+        border: none;
+        border-radius: 9999px;
+        color: #000000;
+        font-family: var(--base-font);
+        font-weight: bold;
+        font-size: 0.8rem;
+        padding: 5px 60px;
+        top: 28px;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 i {
+        position: relative;
+        color: var(--green);
+        bottom: 80px;
+        left: 6rem;
+        font-size: 1.8rem;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .home .contain-recommended {
+        height: 100vw;
+        background-size: cover;
+        background-position: 100% -10rem;
+    }
+
+    .home .contain-recommended .description-recommended .title-recommended {
+        margin-top: 8rem;
+        font-size: 4rem;
+    }
+
+    .home .contain-recommended .description-recommended .information-recommended {
+        font-size: 1.3rem;
+        width: 60%;
+        margin-top: -60px;
+    }
+
+    .home .contain-recommended .description-recommended .contain-button button {
+        padding: 15px 4.5rem;
+        font-size: 1rem;
+        border: none;
+    }
+
+    .home .contain-recommended2 .contain-title {
+        font-size: 4.5rem;
+        width: 90%;
+        margin-top: 10rem;
+    }
+
+    .home .contain-recommended2 .contain-cards {
+        display: flex;
+        height: 35rem;
+    }
+
+    .home .contain-recommended2 .contain-cards .card {     
+        height: 30rem;
+        width: 22%;
+        margin: 10px 5rem;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 {
+        height: 30rem;
+        width: 22%;
+        justify-content: center;
+    }
+
+    .home .contain-recommended2 .contain-cards .card img {
+        width: 90%;
+    }
+
+    .home .contain-recommended2 .contain-cards .card span {
+        bottom: 20rem;
+        font-size: 1.5rem;
+    }
+
+    .home .contain-recommended2 .contain-cards .card button {
+        font-size: 0.8rem;
+        padding: 10px 60px;
+        top: 60px;
+    }
+
+    .home .contain-recommended2 .contain-cards .card i {
+        bottom: 100px;
+        left: 7rem;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 img { 
+        width: 90%;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 span {
+        bottom: 20rem;
+        font-size: 1.5rem;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 button {
+        font-size: 0.8rem;
+        padding: 10px 60px;
+        top: 50px;
+    }
+
+    .home .contain-recommended2 .contain-cards #card3 i {
+        bottom: 100px;
+        left: 7rem;
+    }
+
+}
